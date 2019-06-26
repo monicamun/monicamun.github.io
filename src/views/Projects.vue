@@ -1,11 +1,73 @@
 <template>
-  <div class="about">
+  <div class="about " >
     <h1>This is an about page</h1>
+    <b-container>
+      <b-row>
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2"
+        >
+          <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+
+          <b-button href="#" variant="primary">Go somewhere</b-button>
+        </b-card>
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2"
+        >
+          <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+
+          <b-button href="#" variant="primary">Go somewhere</b-button>
+        </b-card>
+      </b-row>
+
+      <b-row>
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2"
+        >
+          <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+
+          <b-button href="#" variant="primary">Go somewhere</b-button>
+        </b-card>
+        <b-card
+          title="Card Title"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2"
+        >
+          <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+
+          <b-button href="#" variant="primary">Go somewhere</b-button>
+        </b-card>
+      </b-row>
+    </b-container>
+
     <img
       id="img-projects"
       v-bind:class="componentIsLoaded ? 'shadow-pop-br' : ''"
       src="@/assets/laptop.jpg"
     >
+
+  
   </div>
 </template>
 
@@ -18,10 +80,10 @@ export default {
     };
   },
   mounted() {
-      this.componentIsLoaded = true;
+    this.componentIsLoaded = true;
   },
   destroyed() {
-      this.componentIsLoaded = false;
+    this.componentIsLoaded = false;
   }
 };
 </script>
