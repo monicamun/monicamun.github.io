@@ -61,11 +61,7 @@
       </b-row>
     </b-container>
 
-    <img
-      id="img-projects"
-      v-bind:class="componentIsLoaded ? 'shadow-pop-br' : ''"
-      src="@/assets/laptop.jpg"
-    >
+  
 
   
   </div>
@@ -73,18 +69,18 @@
 
 <script>
 export default {
-  name: "projects",
-  data() {
-    return {
-      componentIsLoaded: false
-    };
-  },
-  mounted() {
-    this.componentIsLoaded = true;
-  },
-  destroyed() {
-    this.componentIsLoaded = false;
-  }
+  // name: "projects",
+  // data() {
+  //   return {
+  //     componentIsLoaded: false
+  //   };
+  // },
+  // mounted() {
+  //   this.componentIsLoaded = true;
+  // },
+  // destroyed() {
+  //   this.componentIsLoaded = false;
+  // }
 };
 </script>
 
@@ -137,6 +133,9 @@ export default {
     -webkit-transform: translateX(-8px) translateY(-8px);
     transform: translateX(-8px) translateY(-8px);
   }
+}
+.mb-2{
+  margin: 20px
 }
 </style>
 
