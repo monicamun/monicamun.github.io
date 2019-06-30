@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    
+
    <h1>Hola Mundo</h1>
   </div>
 </template>
@@ -14,3 +14,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.home{
+  position: absolute;
+}
+</style>
+

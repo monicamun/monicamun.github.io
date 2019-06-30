@@ -11,9 +11,17 @@
             <div class="container">
               <div class="row">
                 <div class="col">
-                  <img id="img-porfolio" src="@/assets/logotipo_tinto.png" alt="">
+                  <img id="img-porfolio" src="@/assets/moni6.jpg" alt>
                 </div>
-                
+                <div class="row">
+                  <h6
+                    class="about-me"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                   Laboriosam repellendus, nam repudiandae cupiditate rerum 
+                   praesentium fugit dolorum distinctio laborum animi fugiat
+                   labore veniam. Impedit, placeat quo earum praesentium quaerat
+                   cupiditate?</h6>
+                </div>
               </div>
             </div>
           </div>
@@ -27,10 +35,12 @@
             <div id="header" class="row">
               <div class="col">
                 <h2>Monica Muñoz</h2>
+                <h1>Front end developer</h1>
                 <div id="nav">
-                  <router-link class="router-link" to="/">Home</router-link>|
-                  <router-link class="router-link" to="/about">About</router-link>|
-                  <router-link class="router-link" to="/projects">Projects</router-link>
+                  <router-link class="router-link" to="/">Home </router-link>|
+                  <router-link class="router-link" to="/about">About </router-link>|
+                  <router-link class="router-link" to="/projects">Projects 
+                  </router-link>
                 </div>
               </div>
             </div>
@@ -85,7 +95,8 @@
 }
 
 header {
-  background-image: url("assets/pexels5.jpg");
+  background-image: url("assets/pexels8.jpg");
+  background-size: 50%;
   position: absolute;
   z-index: -1;
   right: 0px;
@@ -103,11 +114,17 @@ aside {
   min-height: 650px;
   background-color: white;
 }
-#img-porfolio{
-  max-width: 50%;
-  margin-top: 10px
+#img-porfolio {
+  max-width: 70%;
+  margin-top: 10px;
+  border-radius: 100px;
 }
-h2{
+h2,
+h1 {
   color: white;
+}
+.about-me {
+  padding: 50px;
+  text-align: justify;
 }
 </style>
