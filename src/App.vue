@@ -11,16 +11,50 @@
             <div class="container">
               <div class="row">
                 <div class="col">
-                  <img id="img-porfolio" src="@/assets/moni6.jpg" alt>
+                  <img id="img-porfolio" src="@/assets/moni6.jpg" alt />
                 </div>
-                <div class="row">
-                  <h6
-                    class="about-me"
-                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                   Laboriosam repellendus, nam repudiandae cupiditate rerum 
-                   praesentium fugit dolorum distinctio laborum animi fugiat
-                   labore veniam. Impedit, placeat quo earum praesentium quaerat
-                   cupiditate?</h6>
+              </div>
+              <div class="row">&nbsp;</div>
+              <div class="row">
+                <div class="col-lg">
+                  <h4>Monica Muñoz</h4>
+                  <h4>Front end developer</h4>
+                </div>
+              </div>
+              <div class="row">&nbsp;</div>
+              <div class="row">
+                <div class="col-lg">
+                  <router-link class="link btn btn-light" to="/about">About Me</router-link>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg">
+                  <router-link class="link btn btn-light" to="/projects">Projects</router-link>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg">
+                  <a
+                    class="link btn btn-light"
+                    href="./resume/cv_developer.pdf"
+                    target="_blank"
+                  >Resume</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg contact">
+                  <a
+                    href="https://www.linkedin.com/in/monica-yolanda-mu%C3%B1oz-nava-954b27185/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                  <a href="https://github.com/monicamun" target="_blank">
+                    <i class="fab fa-github-square fa-2x"></i>
+                  </a>
+                  <a href="mailto:mymunoznava@gmail.com">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -33,25 +67,16 @@
               <div class="col">&nbsp;</div>
             </div>
             <div id="header" class="row">
-              <div class="col">
-                <h2>Monica Muñoz</h2>
-                <h1>Front end developer</h1>
-                <div id="nav">
-                  <router-link class="router-link" to="/">Home </router-link>|
-                  <router-link class="router-link" to="/about">About </router-link>|
-                  <router-link class="router-link" to="/projects">Projects 
-                  </router-link>
-                </div>
-              </div>
+              <div class="col"></div>
             </div>
             <div class="row">
               <div class="col">
                 <transition
                   name="router-anim"
-                  enter-active-class="animated fadeInLeft"
-                  leave-active-class="animated fadeOutLeft"
+                  enter-active-class="animated fadeIn"
+                  leave-active-class="animated fadeOut"
                 >
-                  <router-view/>
+                  <router-view />
                 </transition>
               </div>
             </div>
@@ -64,7 +89,6 @@
 
 <style lang="scss" scoped>
 @import "./assets/animate.css@3.5.1.css";
-
 #empty-content {
   height: 30px;
 }
@@ -95,8 +119,10 @@
 }
 
 header {
-  background-image: url("assets/pexels8.jpg");
-  background-size: 50%;
+  background-image: url("assets/vialactea.jpg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position-y: 19%;
   position: absolute;
   z-index: -1;
   right: 0px;
@@ -126,5 +152,15 @@ h1 {
 .about-me {
   padding: 50px;
   text-align: justify;
+}
+.link {
+  margin-bottom: 10px;
+  display: block;
+}
+.contact {
+  margin-top: 50px;
+}
+i {
+  padding: 10px;
 }
 </style>
