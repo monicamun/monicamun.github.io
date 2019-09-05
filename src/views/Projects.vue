@@ -5,7 +5,9 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="card">
-            <img src="@/assets/moni-notas.png" class="card-img-top" />
+            <a href="https://monicamun.github.io/selectivo-moni-notas" target="_blank">
+              <img src="@/assets/moni-notas.png" class="card-img-top" />
+            </a>
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
@@ -13,16 +15,14 @@
                 <br />
                 <br />Built with: vue, javascript, node, mongodb, heroku, firebase,json web token, materialize
               </p>
-              <a
-                href="https://monicamun.github.io/selectivo-moni-notas"
-                class="btn btn-primary"
-              >Demo</a>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="card">
-            <img src="@/assets/burger-queen.png" class="card-img-top" />
+            <a href="https://monicamun.github.io/GDL002-burger-queen/" target="_blank">
+              <img src="@/assets/burger-queen.png" class="card-img-top" />
+            </a>
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
@@ -30,10 +30,6 @@
                 <br />
                 <br />Built with: javascript and react
               </p>
-              <a
-                href="https://monicamun.github.io/GDL002-burger-queen/"
-                class="btn btn-primary"
-              >Demo</a>
             </div>
           </div>
         </div>
@@ -41,7 +37,9 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="card">
-            <img src="@/assets/food_finder.png" class="card-img-top" />
+            <a href="https://monicamun.github.io/GDL-open-house" target="_blank">
+              <img src="@/assets/food_finder.png" class="card-img-top" />
+            </a>
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
@@ -49,13 +47,14 @@
                 <br />
                 <br />Built with: react js, API google maps
               </p>
-              <a href="https://monicamun.github.io/GDL-open-house" class="btn btn-primary">Demo</a>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="card">
-            <img src="@/assets/md-links.png" class="card-img-top" />
+            <a href="https://github.com/monicamun/GDL002-md-links" target="_blank">
+              <img src="@/assets/md-links.png" class="card-img-top" />
+            </a>
             <div class="card-body">
               <h5 class="card-title"></h5>
               <p class="card-text">
@@ -63,7 +62,6 @@
                 <br />
                 <br />Built with: node, console, npm, javascript, markdown, regex
               </p>
-              <a href="https://github.com/monicamun/GDL002-md-links" class="btn btn-primary">Code</a>
             </div>
           </div>
         </div>
