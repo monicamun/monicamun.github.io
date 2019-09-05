@@ -6,8 +6,9 @@
           <h3>ABOUT ME</h3>
 
           <span class="description">
-            Desarrolladora Front-end con una gran pasión por el aprendizaje constante. Disfruto los nuevos desafíos y encontrar nuevas formas de resolver problemas. Lic. en Mercadotecnia con mucha experiencia en el área financiera, actualmente me encuentro estudiando una Ing. en sistemas.
-            Determinación, adaptabilidad y el auto-aprendizaje son fortalezas que me ayudan a mantenerme en constante mejora.
+            I'm a frontend developer with a big passion for learning. I enjoy new challenges and finding new ways of solving problems. I studied Marketing and have experience working with finance, I'm currently studying Computer Systems Engineering.
+            <br /> <br />
+            Determination, Adaptability and self-learning are some of the skills that help me keep improving myself.
           </span>
         </div>
       </div>
