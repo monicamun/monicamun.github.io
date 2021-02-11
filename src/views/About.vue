@@ -32,14 +32,16 @@
       <h3 class="soft-skills">TECH SKILLS</h3>
       <div class="row">
         <div class="col-lg-6 ml-auto">
-          <li>Adaptability</li>
-          <li>Self-Learning</li>
-          <li>Determination</li>
+          <li>Javascript</li>
+          <li>Frameworks CSS</li>
+          <li>Nodejs</li>
+          <li>React</li>
         </div>
         <div class="col-lg-6 ml-auto">
-          <li>Efective comunication</li>
-          <li>Collaborative Work</li>
-          <li>Proactive</li>
+          <li>Vue</li>
+          <li>Angular</li>
+          <li>HTML 5</li>
+          <li>Agile methodology</li>
         </div>
       </div>
 
