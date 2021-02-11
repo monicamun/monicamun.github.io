@@ -3,44 +3,36 @@
     <header>
       <div id="bg"></div>
     </header>
-
     <div id="main-container" class="container">
       <div class="row">
-        <aside class="col col-lg-3">
+        <aside class="col-lg-3">
           <div id="aside-information">
             <div class="container">
-              <div class="row">
-                <div class="col">
-                  <img id="img-porfolio" src="@/assets/moni6.jpg" alt />
+              <div class="row align-items-center">
+                <div class="col-lg-12 col-sm-6 col-6">
+                  <img id="img-porfolio" src="@/assets/moni6.jpg" alt="Monica Muñoz" />
                 </div>
-              </div>
-              <div class="row">&nbsp;</div>
-              <div class="row">
-                <div class="col-lg">
+                  <div class="col-lg-12 col-sm-6 col-6">
                   <h4>Monica Muñoz</h4>
                   <h4>Front end developer</h4>
                 </div>
               </div>
               <div class="row">&nbsp;</div>
               <div class="row">
-                <div class="col-lg">
+                <div class="col-lg-12 col-sm-4 col-4">
                   <router-link class="link btn btn-light" to="/about">About Me</router-link>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-lg">
+                <div class="col-lg-12 col-sm-4 col-4">
                   <router-link class="link btn btn-light" to="/projects">Projects</router-link>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-lg">
+                <div class="col-lg-12 col-sm-4 col-4">
                   <a
                     class="link btn btn-light"
                     href="./resume/cv_developer.pdf"
                     target="_blank"
                   >Resume</a>
                 </div>
-              </div>
+             </div>
               <div class="row">
                 <div class="col-lg contact">
                   <a
@@ -60,7 +52,6 @@
             </div>
           </div>
         </aside>
-
         <div class="col col-lg-9">
           <div class="container">
             <div id="empty-content" class="row">
@@ -118,6 +109,10 @@
   }
 }
 
+h4{
+font-size: 130%;
+}
+
 header {
   background-image: url("assets/vialactea.jpg");
   position: absolute;
@@ -130,9 +125,9 @@ header {
   top: 0px;
   height: 210px;
 }
-aside {
+/* aside {
   margin-left: -7%;
-}
+} */
 #aside-information {
   -webkit-box-shadow: -1px 3px 6px 1px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: -1px 3px 6px 1px rgba(0, 0, 0, 0.58);
@@ -140,6 +135,13 @@ aside {
   min-height: 650px;
   background-color: white;
 }
+
+@media (min-width: 0) and (max-width: 991px) {
+  #aside-information {
+  min-height: 350px;
+    }
+  }
+
 #img-porfolio {
   max-width: 70%;
   margin-top: 10px;
